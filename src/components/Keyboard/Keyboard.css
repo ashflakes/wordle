@@ -1,0 +1,37 @@
+.keyboard {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    justify-content: center;
+
+}
+
+.key {
+    display: flex;
+    border-radius: 10%;
+    background-color: lightgray;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0.2rem;
+    height: 58px;
+    min-width: 43px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+
+.key:hover {
+    background: darkgray;
+}
+
+#enter {
+    display: none;
+    width: 60px;
+}
+
+#⌫ {
+    width: 60px;
+}
